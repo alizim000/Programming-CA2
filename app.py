@@ -10,8 +10,8 @@ app = Flask(__name__)
 CORS(app)
 # My SQL Instance configurations
 # Change the HOST IP and Password to match your instance configurations
-app.config['MYSQL_USER'] = 'web'
-app.config['MYSQL_PASSWORD'] = 'webPass'
+app.config['MYSQL_USER'] = 'ali'
+app.config['MYSQL_PASSWORD'] = 'root'
 app.config['MYSQL_DB'] = 'student'
 app.config['MYSQL_HOST'] = 'localhost' #for now
 mysql.init_app(app)
